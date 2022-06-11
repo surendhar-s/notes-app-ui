@@ -1,0 +1,35 @@
+.header-con {
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.navbar-top {
+    width: -webkit-fill-available;
+    height: 60px;
+    background-color: #d6e0e6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logout-button {
+    width: auto;
+    margin-right: 29px;
+}
+
+.title {
+    width: auto;
+    height: 50px;
+    margin: 15px 0px 0px 15px;
+}
+
+.note-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 1200px) {
+    .Home-drawerHeader-8 {
+        height: 35px !important;
+    }
+}
